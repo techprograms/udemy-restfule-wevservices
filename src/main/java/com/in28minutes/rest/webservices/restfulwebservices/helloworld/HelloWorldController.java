@@ -13,4 +13,8 @@ public class HelloWorldController {
 		//abc
 		return "Hello World Controller";
 	}
+	
+	public String sayHello() {
+		return "Hello Sir";
+	}
 }
