@@ -8,17 +8,7 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		// returning a String
-		// xyz
-		// abc
 		return "Hello World Controller";
 	}
 
-	public String sayHello() {
-		return "Hello Sir";
-	}
-
-	public String getMessage() {
-		return "Hi";
-	}
 }
