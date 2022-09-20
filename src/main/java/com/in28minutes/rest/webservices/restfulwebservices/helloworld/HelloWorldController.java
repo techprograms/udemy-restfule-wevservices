@@ -15,7 +15,7 @@ public class HelloWorldController {
 	public HelloWorldBean helloWorldBean() {
 		return new HelloWorldBean("Hello World Bean");
 	}
-
+	//test method
 	public String getMessage() {
 		return "hello world";
 	}
