@@ -22,4 +22,5 @@ public class HelloWorldController {
 	public String getMessage() {
 		return "hello world";
 	}
+	//this is controller class
 }
